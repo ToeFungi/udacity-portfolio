@@ -23,3 +23,12 @@
     font-weight: 900;
     position: relative;
 }
+
+.img-link {
+    width: 100%;
+    height: 100%;
+}
+
+.subheadings {
+    text-decoration: underline;
+}
