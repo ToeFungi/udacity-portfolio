@@ -3,7 +3,7 @@
     color: #fff;
     text-align: right;
     padding: 30px 15px;
-    border-radius: 6px;
+    border-radius: 5px;
     margin-bottom: 30px;
     background-image: url(../res/img/featured-image-contact.jpg);
 }
@@ -14,6 +14,7 @@
     bottom: 0;
     opacity: 0.5;
     position: absolute;
+    border-radius: 5px;
     background: url(../res/img/featured-image-contact.jpg);
 }
 .name, .role {
