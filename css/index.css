@@ -1,3 +1,21 @@
-body {
-	background-color: red;
+.header {
+    position: relative;
+    color: #fff;
+    text-align: right;
+    padding: 30px 15px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    background-image: url(../res/img/featured-image-contact.jpg);
+}
+.background-image {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    position: absolute;
+    background: url(../res/img/featured-image-contact.jpg);
+}
+.name, .role {
+    font-weight: 900;
 }
