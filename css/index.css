@@ -27,6 +27,14 @@ span {
     background-color: black;
 }
 
+.img-link {
+    margin: auto !important;
+}
+
 .subheadings {
     text-decoration: underline;
+}
+
+footer {
+    margin: 5em 0 !important;
 }
