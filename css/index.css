@@ -7,6 +7,7 @@
     border-radius: 5px;
     margin-bottom: 30px;
 }
+
 .background-image {
     top: 0;
     left: 0;
@@ -16,15 +17,18 @@
     position: absolute;
     border-radius: 5px;
 }
-.name, .role {
-    z-index: 200;
+
+.name,
+.role {
     color: #fff;
+    z-index: 200;
     font-weight: 900;
     position: relative;
 }
+
 span {
     padding: 0 5px;
-    background-color: black;
+    background: black;
 }
 
 .img-link {
