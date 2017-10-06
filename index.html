@@ -10,19 +10,27 @@
 
     <script src="js/index.js"></script>
 
+    <link rel="shortcut icon" type="image/png" href="res/img/favicon.png"/>
+
     <link href="css/index.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
 
   <body>
     <div class="container">
-      <div class="header">
-        <img class="background-image" src="res/img/featured-image-contact.jpg" alt="background banner">
-        <h1 class="name"><span>Alex Pickering</span></h1>
-        <h2 class="role"><span>Frontend Developer</span></h2>
-      </div>
+      <header class="header row">
+        <div class="col-sm-12">
+          <img class="background-image img-responsive" src="res/img/featured-image-contact.jpg" alt="background banner">
+          <h1 class="name"><span>Alex Pickering</span></h1>
+          <h2 class="role"><span>Frontend Developer</span></h2>
+        </div>
+      </header>
 
-      <hr>
+      <div class="row">
+        <div class="col-sm-12">
+          <hr>
+        </div>
+      </div>
 
       <h2 class="subheadings">Some Useful Tools</h2>
 
@@ -64,7 +72,11 @@
         </div>
       </div>
 
-      <hr>
+      <div class="row">
+        <div class="col-sm-12">
+          <hr>
+        </div>
+      </div>
 
       <h2 class="subheadings">Programming Experience</h2>
 
@@ -142,7 +154,11 @@
         </div>
       </div>
 
-      <hr>
+      <div class="row">
+        <div class="col-sm-12">
+          <hr>
+        </div>
+      </div>
 
       <div class="row">
         <div class="col-sm-12">
@@ -166,50 +182,54 @@
       </div>
 
       <div class="row">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2>Publicly Hosted</h2>
-            <ul>
-              <li>Teamspeak Server - IP: ts.thetoefungi.co.za</li>
-              <li><a href="https://udacity.thetoefungi.co.za/" target="_blank">Udacity</a></li>
-              <li><a href="https://docs.thetoefungi.co.za/" target="_blank">Documentation</a></li>
-              <li><a href="https://apis.thetoefungi.co.za/" target="_blank">APIs</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <h2>Privately Hosted</h2>
-            <ul>
-              <li>Jenkins</li>
-              <li>Downloads</li>
-            </ul>
-          </div>
+        <div class="col-sm-6">
+          <h2>Publicly Hosted</h2>
+          <ul>
+            <li>Teamspeak Server - IP: ts.thetoefungi.co.za</li>
+            <li><a href="https://udacity.thetoefungi.co.za/" target="_blank">Udacity</a></li>
+            <li><a href="https://docs.thetoefungi.co.za/" target="_blank">Documentation</a></li>
+            <li><a href="https://apis.thetoefungi.co.za/" target="_blank">APIs</a></li>
+          </ul>
         </div>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <p>
-              Everything that I host currently have up-to-date SSL certificates which were procured through <a href="https://letsencrypt.org/"
-              target="_blank">LetsEncrypt</a> which allows for free SSL certificates. I am also using <a href="https://www.docker.com/"
-              target="_blank">Docker</a> with a proxy to navigate to the various subdomains that I have running. I have experience using Jenkins which I
-              currently use to build and deploy all of my projects automatically with Docker.
-            </p>
-            <p>
-              In a working environment, I've been exposed to and am familiar with
-            </p>
-            <ul>
-              <li>GitHub & BitBucket</li>
-              <li>Kubernetes</li>
-              <li>Docker</li>
-              <li>Jenkins</li>
-            </ul>
-          </div>
+        <div class="col-sm-6">
+          <h2>Privately Hosted</h2>
+          <ul>
+            <li>Jenkins</li>
+            <li>Downloads</li>
+          </ul>
         </div>
       </div>
 
-      <hr>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>
+            Everything that I host currently have up-to-date SSL certificates which were procured through <a href="https://letsencrypt.org/"
+                                                                                                             target="_blank">LetsEncrypt</a> which allows for free SSL certificates. I am also using <a href="https://www.docker.com/"
+                                                                                                                                                                                                        target="_blank">Docker</a> with a proxy to navigate to the various subdomains that I have running. I have experience using Jenkins which I
+            currently use to build and deploy all of my projects automatically with Docker.
+          </p>
+          <p>
+            In a working environment, I've been exposed to and am familiar with
+          </p>
+          <ul>
+            <li>GitHub & BitBucket</li>
+            <li>Kubernetes</li>
+            <li>Docker</li>
+            <li>Jenkins</li>
+          </ul>
+        </div>
+      </div>
 
-      <footer class="footer">
-        <p>Developed by Alex Pickering - Udacity Portfolio Project - 2017</p>
+      <div class="row">
+        <div class="col-sm-12">
+          <hr>
+        </div>
+      </div>
+
+      <footer class="footer row">
+        <div class="col-sm-12">
+          <p>Developed by Alex Pickering - Udacity Portfolio Project - 2017</p>
+        </div>
       </footer>
     </div>
   </body>
